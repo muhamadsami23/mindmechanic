@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 export default function Sitemap(): MetadataRoute.Sitemap {
-  const siteUrl = "mindmechanicss.com"; // Change to your actual domain
+  const siteUrl = "https://www.mindmechanicss.com"; // Fixed: Use correct domain
 
   const pages = [
     "/",
